@@ -7,13 +7,13 @@ This project utilizes Selenium4 to scrape data from Douban's Top 250 movies list
 ###1. Clone the Project
 git clone https://github.com/meggie2047/python_crawler.git
 cd your_project
-###2. Install Dependencies11
+###2. Install Dependencies
 Make sure you have Python and pip installed. Then install the project dependencies using the following command:
 
 pip install selenium pandas
 ###3. Run the Scraper
 Execute the following command in the terminal to run the scraper and fetch data from Douban's Top 250 movies list:
-v1 is for douban movie info, only including title and url, v2 is for fetching movie detail
+v1 is for douban movie info, only including title and url, v2 is for fetching movie detail.
 
 python douban_top250_se_v2.py
 ###4. Analyze the Data
